@@ -1,0 +1,39 @@
+.header{
+  background-color:rgba(0,0,0,0.4);
+  display: flex; /* arrange items in one line */
+  justify-content: space-between; /* push items to left to right */
+  align-items: center;
+  padding: 10px 40px;
+  
+}
+.header h1{
+
+    color: white;
+    text-shadow:rgba(0,0,0,0.6) 2px 2px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 2%;
+}
+.header h1:hover{
+   
+    text-shadow:black 2px 2px;
+    color: #00bcd4;
+}
+.header a {
+    
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: bold;
+    text-shadow:rgba(0,0,0,0.6) 2px 2px;
+    
+
+}
+.links a:hover {
+    color: #00bcd4;
+    transform: scale(1.2);
+    
+}
+
